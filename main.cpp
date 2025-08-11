@@ -40,7 +40,7 @@ int main() {
 
         // Precondition: 1 <= k <= n holds, so we just call kSmall.
         int val = kSmall(a, 0, n - 1, k);
-        cout << "kSmall result: " << val << "\n";
+        cout << k << "(th) result: " << val << "\n";
         cout << "array after kSmall: ";
         print(a, n);
         cout << "\n\n";

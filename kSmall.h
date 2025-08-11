@@ -7,22 +7,11 @@
  *     2) kth smallest is the pivot
  *     3) kth smallest in S2 (right partition)
  */
- 
+
 #ifndef KSMALL_H
 #define KSMALL_H
-
 #include <utility> //Used for std::swap
 
-/*
- * @file kSmall.h
- * @brief Recursive selection (kth smallest) using first element as pivot.
- *
- * Constraints satisfied for the assignment:
- *  - Array is passed as a pointer (int*).
- *  - Uses a separate partition function that returns the pivot index.
- *  - No exceptions are thrown; caller must ensure 1 <= k <= (last-first+1).
- *  - Works with plain C-style arrays (no std::vector required).
- */
 
 /*
  * @param a Pointer to the array (non-null)
