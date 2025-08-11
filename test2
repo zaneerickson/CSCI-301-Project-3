@@ -1,0 +1,19 @@
+Script started on 2025-08-11 09:47:52+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="160" LINES="12"]
+[?2004h[0;32m@zaneerickson [0m➜ [1;34m/workspaces/CSCI-301-Project-3 [0;36m([1;31mmain[0;36m) [0m$ g++ mainc.[K[K.cpp
+[?2004l[?2004h[0;32m@zaneerickson [0m➜ [1;34m/workspaces/CSCI-301-Project-3 [0;36m([1;31mmain[0;36m) [0m$ ./a.out
+[?2004l[S1 case] default array: 4 3 1 2 7 10 | k=2
+2(nd) smallest: 2
+array after kSmall: 1 2 3 4 7 10
+
+[Pivot case] base: 4 3 1 2 7 10 | k=4
+4(th) smallest: 4
+array after kSmall function: 2 3 1 4 7 10
+
+[S2 case] base: 4 3 1 2 7 10 | k=5
+5(th) smallest: 7
+array after kSmall function: 2 3 1 4 7 10
+
+[?2004h[0;32m@zaneerickson [0m➜ [1;34m/workspaces/CSCI-301-Project-3 [0;36m([1;31mmain[0;36m) [0m$ exit
+[?2004lexit
+
+Script done on 2025-08-11 09:48:08+00:00 [COMMAND_EXIT_CODE="0"]
